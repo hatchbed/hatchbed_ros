@@ -1,0 +1,12 @@
+<library path="lib/libhatchbed_localization_util_nodelets">
+    <class name="hatchbed_localization_util/imu_to_twist" type="hatchbed_localization_util::ImuToTwist"
+        base_class_type="nodelet::Nodelet">
+        <description> Nodelet converts an Imu message to a TwistWithCovarianceStamped message.
+        </description>
+    </class>
+    <class name="hatchbed_localization_util/odom_to_twist" type="hatchbed_localization_util::OdomToTwist"
+        base_class_type="nodelet::Nodelet">
+        <description> Nodelet converts an Odom message to a TwistWithCovarianceStamped message.
+        </description>
+    </class>
+</library>
